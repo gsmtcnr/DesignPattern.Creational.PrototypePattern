@@ -23,7 +23,7 @@ namespace DesignPattern.Creational.PrototypePattern.ConsoleApp
             OrderInformation(cloneOrder1);
 
             var cloneOrder2 = mainOrder.Repeat();
-            OrderInformation(cloneOrder1);
+            OrderInformation(cloneOrder2);
 
             Console.ReadLine();
         }
